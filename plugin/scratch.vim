@@ -3,6 +3,7 @@ if exists('g:loaded_scratch')
 endif
 let g:loaded_scratch = 1
 
+let g:scratchbuf_no = 1
 
 function! ScratchEdit(cmd, options)
     exe a:cmd '[Scratch' . g:scratchbuf_no . ']'
