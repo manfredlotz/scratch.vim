@@ -6,7 +6,7 @@ let g:loaded_scratch = 1
 let g:scratchbuf_no = 1
 
 function! ScratchEdit(cmd)
-    exe a:cmd '[Scratch' . g:scratchbuf_no . ']'
+    exe a:cmd '\[Scratch' . g:scratchbuf_no . '\]'
     let g:scratchbuf_no += 1
 
     setlocal buflisted
