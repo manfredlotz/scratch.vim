@@ -14,7 +14,7 @@ function! ScratchEdit(cmd)
     setlocal buftype=nofile
     setlocal bufhidden=hide
     setlocal foldcolumn=0
-    setlocal nonumber
+    " setlocal nonumber
 endfunction
 
 command! -bar -nargs=* Scratch call ScratchEdit('edit')
